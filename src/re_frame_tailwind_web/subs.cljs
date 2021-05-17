@@ -3,6 +3,16 @@
    [re-frame.core :as re-frame]))
 
 (re-frame/reg-sub
- ::name
+ ::main-display
  (fn [db]
-   (:name db)))
+   (:main-display db)))
+
+(re-frame/reg-sub
+ ::menu-display
+ (fn [db]
+   (:menu-display db)))
+
+(re-frame/reg-sub
+ ::destinations
+ (fn [db]
+   (:destinations db)))

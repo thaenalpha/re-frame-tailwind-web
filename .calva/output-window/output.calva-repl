@@ -30,8 +30,147 @@ nil
 ; Running tests for re-frame-tailwind-web.views...
 ; No tests found. 😱, ns: 0, vars: 0
 cljs꞉re-frame-tailwind-web.views꞉> 
-; Evaluating file: db.cljs
+; Evaluating file: views.cljs
 nil
-; Running tests for re-frame-tailwind-web.db...
+; Running tests for re-frame-tailwind-web.views...
 ; No tests found. 😱, ns: 0, vars: 0
-cljs꞉re-frame-tailwind-web.db꞉> 
+cljs꞉re-frame-tailwind-web.views꞉> 
+; Evaluating file: views.cljs
+nil
+; Running tests for re-frame-tailwind-web.views...
+; No tests found. 😱, ns: 0, vars: 0
+cljs꞉re-frame-tailwind-web.views꞉> 
+; Evaluating file: views.cljs
+nil
+; Running tests for re-frame-tailwind-web.views...
+; No tests found. 😱, ns: 0, vars: 0
+cljs꞉re-frame-tailwind-web.views꞉> 
+; Evaluating file: views.cljs
+nil
+; Running tests for re-frame-tailwind-web.views...
+; No tests found. 😱, ns: 0, vars: 0
+cljs꞉re-frame-tailwind-web.views꞉> 
+; Evaluating file: views.cljs
+nil
+; Running tests for re-frame-tailwind-web.views...
+; No tests found. 😱, ns: 0, vars: 0
+cljs꞉re-frame-tailwind-web.views꞉> 
+; Evaluating file: views.cljs
+nil
+; Running tests for re-frame-tailwind-web.views...
+; No tests found. 😱, ns: 0, vars: 0
+cljs꞉re-frame-tailwind-web.views꞉> 
+; Evaluating file: views.cljs
+nil
+; Running tests for re-frame-tailwind-web.views...
+; No tests found. 😱, ns: 0, vars: 0
+cljs꞉re-frame-tailwind-web.views꞉> 
+; Evaluating file: views.cljs
+nil
+; Running tests for re-frame-tailwind-web.views...
+; No tests found. 😱, ns: 0, vars: 0
+cljs꞉re-frame-tailwind-web.views꞉> 
+; Evaluating file: views.cljs
+nil
+; Running tests for re-frame-tailwind-web.views...
+; No tests found. 😱, ns: 0, vars: 0
+cljs꞉re-frame-tailwind-web.views꞉> 
+; Evaluating file: views.cljs
+nil
+; Running tests for re-frame-tailwind-web.views...
+; No tests found. 😱, ns: 0, vars: 0
+cljs꞉re-frame-tailwind-web.views꞉> 
+; Evaluating file: views.cljs
+nil
+; Running tests for re-frame-tailwind-web.views...
+; No tests found. 😱, ns: 0, vars: 0
+cljs꞉re-frame-tailwind-web.views꞉> 
+; Evaluating file: views.cljs
+nil
+; Running tests for re-frame-tailwind-web.views...
+; No tests found. 😱, ns: 0, vars: 0
+cljs꞉re-frame-tailwind-web.views꞉> 
+; Evaluating file: views.cljs
+nil
+; Running tests for re-frame-tailwind-web.views...
+; No tests found. 😱, ns: 0, vars: 0
+cljs꞉re-frame-tailwind-web.views꞉> 
+()
+()
+cljs꞉re-frame-tailwind-web.views꞉> 
+(let [destinations (re-frame/subscribe [::subs/destinations])]
+  (map #(vector :img.inset-0.w-full.h-full.objet.cover.objet.center {:src (:imageUrl %) :alt (:imageAlt %)}) (take 2 @destinations)))
+([:img.inset-0.w-full.h-full.objet.cover.objet.center {:src "img/toronto.jpg", :alt "Toronto skyline"}]
+ [:img.inset-0.w-full.h-full.objet.cover.objet.center {:src "img/malibu.jpg", :alt "Cliff in Malibu"}])
+cljs꞉re-frame-tailwind-web.views꞉> 
+(let [destinations (re-frame/subscribe [::subs/destinations])]
+  (take 2 @destinations))
+({:city "Toronto", :averagePrice 120, :propertyCount 76, :imageUrl "img/toronto.jpg", :imageAlt "Toronto skyline"}
+ {:city "Malibu", :averagePrice 215, :propertyCount 43, :imageUrl "img/malibu.jpg", :imageAlt "Cliff in Malibu"})
+cljs꞉re-frame-tailwind-web.views꞉> 
+(doc rest)
+nil
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:1:2
+Use of undeclared Var re-frame-tailwind-web.views/doc
+--------------------------------------------------------------------------------
+
+cljs꞉re-frame-tailwind-web.views꞉> 
+(rest [0 1 2 3])
+(1 2 3)
+cljs꞉re-frame-tailwind-web.views꞉> 
+; Evaluating file: views.cljs
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  File: /home/nopan/re-frame-tailwind-web/src/re_frame_tailwind_web/views.cljs:45:1
+ Use of undeclared Var re-frame-tailwind-web.views/
+--------------------------------------------------------------------------------
+
+nil
+; Running tests for re-frame-tailwind-web.views...
+; No tests found. 😱, ns: 0, vars: 0
+cljs꞉re-frame-tailwind-web.views꞉> 
+; Evaluating file: views.cljs
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  File: /home/nopan/re-frame-tailwind-web/src/re_frame_tailwind_web/views.cljs:45:1
+ Use of undeclared Var re-frame-tailwind-web.views/
+--------------------------------------------------------------------------------
+
+nil
+; Running tests for re-frame-tailwind-web.views...
+; No tests found. 😱, ns: 0, vars: 0
+cljs꞉re-frame-tailwind-web.views꞉> 
+; Evaluating file: views.cljs
+nil
+; Running tests for re-frame-tailwind-web.views...
+; No tests found. 😱, ns: 0, vars: 0
+cljs꞉re-frame-tailwind-web.views꞉> 
+; Evaluating file: views.cljs
+nil
+; Running tests for re-frame-tailwind-web.views...
+; No tests found. 😱, ns: 0, vars: 0
+cljs꞉re-frame-tailwind-web.views꞉> 
+; Evaluating file: views.cljs
+nil
+; Running tests for re-frame-tailwind-web.views...
+; No tests found. 😱, ns: 0, vars: 0
+cljs꞉re-frame-tailwind-web.views꞉> 
+; Evaluating file: views.cljs
+nil
+; Running tests for re-frame-tailwind-web.views...
+; No tests found. 😱, ns: 0, vars: 0
+cljs꞉re-frame-tailwind-web.views꞉> 
+; Evaluating file: views.cljs
+nil
+; Running tests for re-frame-tailwind-web.views...
+; No tests found. 😱, ns: 0, vars: 0
+cljs꞉re-frame-tailwind-web.views꞉> 
+; Evaluating file: views.cljs
+nil
+; Running tests for re-frame-tailwind-web.views...
+; No tests found. 😱, ns: 0, vars: 0
+cljs꞉re-frame-tailwind-web.views꞉> 
+; Evaluating file: views.cljs
+nil
+; Running tests for re-frame-tailwind-web.views...
+; No tests found. 😱, ns: 0, vars: 0
+cljs꞉re-frame-tailwind-web.views꞉> 

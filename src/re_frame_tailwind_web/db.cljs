@@ -1,7 +1,8 @@
 (ns re-frame-tailwind-web.db)
 
 (def default-db
-  {:destinations
+  {:menu-display nil
+   :destinations
    [{:city "Toronto"
      :averagePrice 120
      :propertyCount 76
