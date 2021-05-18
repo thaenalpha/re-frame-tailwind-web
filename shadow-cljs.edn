@@ -22,18 +22,6 @@
    :asset-path "/js/compiled"
    :modules
    {:app {:init-fn re-frame-tailwind-web.core/init}}
-   :devtools
-   {:preloads [re-frisk.preload]}
-   :dev
-   {:compiler-options
-    {:closure-defines
-     {}}}}
-  :ui
-  {:target     :browser
-   :output-dir "resources/public/js/compiled"
-   :asset-path "/js/compiled"
-   :modules
-   {:app {:init-fn re-frame-tailwind-web.core/init}}
    :dev
    {:build-hooks
     [(teknql.tailwind/start-watch!)]
