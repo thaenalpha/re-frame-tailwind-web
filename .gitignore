@@ -13,3 +13,4 @@
 
 # shadow-cljs cache, port files
 /.shadow-cljs/
+.calva/output-window/output.calva-repl
